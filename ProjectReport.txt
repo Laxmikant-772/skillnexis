@@ -1,0 +1,53 @@
+HOTEL BOOKING MANAGEMENT SYSTEM
+
+1. INTRODUCTION
+
+The Hotel Booking Management System is a Java-based application used to manage hotel room bookings. It allows users to add, view, and cancel bookings.
+
+2. OBJECTIVES
+
+- To add new hotel bookings.
+- To display booking details.
+- To cancel existing bookings.
+- To calculate the total booking cost.
+
+3. CLASSES USED
+
+Booking Class:
+The Booking class stores booking ID, customer name, room number, number of days, and total cost. It also contains a method to display booking information.
+
+HotelBookingSystem Class:
+This class contains the main method and manages the menu. It allows the user to add, view, and cancel bookings.
+
+4. COLLECTIONS USED
+
+An ArrayList<Booking> is used to store multiple booking objects. It allows bookings to be added and accessed dynamically.
+
+5. PROJECT LOGIC
+
+1. The program displays a menu.
+2. The user selects an operation.
+3. The program accepts customer name, room number, and number of days.
+4. The total cost is calculated using the formula:
+
+   Total Cost = Number of Days x Room Price
+
+5. The booking is stored in the ArrayList.
+6. The user can view all bookings.
+7. The user can cancel a booking using its booking ID.
+8. The program continues until the user selects Exit.
+
+6. EXCEPTION HANDLING
+
+The program uses try-catch blocks to handle invalid numeric input. This prevents the program from terminating when the user enters an incorrect value.
+
+7. TECHNOLOGIES USED
+
+- Java
+- Object-Oriented Programming
+- ArrayList
+- Scanner
+- Exception Handling
+
+
+The Hotel Booking Management System demonstrates the use of Java classes, objects, collections, methods, and exception handling. It provides a simple way to manage hotel bookings and calculate booking costs.
